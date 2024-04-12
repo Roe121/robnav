@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/workspace/devel
+
+Name: tp_ros
+Description: Description of tp_ros
+Version: 0.0.0
+Cflags: -I/home/ubuntu/workspace/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

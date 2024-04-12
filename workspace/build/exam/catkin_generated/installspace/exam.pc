@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/workspace/install
+
+Name: exam
+Description: Description of exam
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

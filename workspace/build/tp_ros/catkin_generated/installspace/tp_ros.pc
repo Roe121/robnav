@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/workspace/install
+
+Name: tp_ros
+Description: Description of tp_ros
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

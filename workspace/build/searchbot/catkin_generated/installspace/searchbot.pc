@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/workspace/install
+
+Name: searchbot
+Description: Description of searchbot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

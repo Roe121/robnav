@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/workspace/devel
+
+Name: tuto_ros
+Description: Description of tuto_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

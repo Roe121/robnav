@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/workspace/install
+
+Name: tmp
+Description: Description of tmp
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
