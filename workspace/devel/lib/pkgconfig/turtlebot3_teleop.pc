@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/workspace/devel
+prefix=/home/ubuntu/robnav/workspace/devel
 
 Name: turtlebot3_teleop
 Description: Description of turtlebot3_teleop
