@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/workspace/install
+prefix=/home/ubuntu/robnav/workspace/install
 
 Name: searchbot
 Description: Description of searchbot

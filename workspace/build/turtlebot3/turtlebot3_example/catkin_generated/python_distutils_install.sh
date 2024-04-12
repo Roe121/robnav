@@ -13,21 +13,21 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/ubuntu/workspace/src/turtlebot3/turtlebot3_example"
+echo_and_run cd "/home/ubuntu/robnav/workspace/src/turtlebot3/turtlebot3_example"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/ubuntu/workspace/install/lib/python3/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/home/ubuntu/robnav/workspace/install/lib/python3/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/ubuntu/workspace/install/lib/python3/dist-packages:/home/ubuntu/workspace/build/lib/python3/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/ubuntu/workspace/build" \
+    PYTHONPATH="/home/ubuntu/robnav/workspace/install/lib/python3/dist-packages:/home/ubuntu/robnav/workspace/build/lib/python3/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/ubuntu/robnav/workspace/build" \
     "/usr/bin/python3" \
-    "/home/ubuntu/workspace/src/turtlebot3/turtlebot3_example/setup.py" \
+    "/home/ubuntu/robnav/workspace/src/turtlebot3/turtlebot3_example/setup.py" \
      \
-    build --build-base "/home/ubuntu/workspace/build/turtlebot3/turtlebot3_example" \
+    build --build-base "/home/ubuntu/robnav/workspace/build/turtlebot3/turtlebot3_example" \
     install \
     --root="${DESTDIR-/}" \
-    --install-layout=deb --prefix="/home/ubuntu/workspace/install" --install-scripts="/home/ubuntu/workspace/install/bin"
+    --install-layout=deb --prefix="/home/ubuntu/robnav/workspace/install" --install-scripts="/home/ubuntu/robnav/workspace/install/bin"

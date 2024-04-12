@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/workspace/install
+prefix=/home/ubuntu/robnav/workspace/install
 
 Name: turtlebot3_navigation
 Description: Description of turtlebot3_navigation

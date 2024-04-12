@@ -67,14 +67,14 @@ set(searchbot_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(searchbot_SOURCE_PREFIX /home/ubuntu/workspace/src/searchbot)
-  set(searchbot_DEVEL_PREFIX /home/ubuntu/workspace/devel)
+  set(searchbot_SOURCE_PREFIX /home/ubuntu/robnav/workspace/src/searchbot)
+  set(searchbot_DEVEL_PREFIX /home/ubuntu/robnav/workspace/devel)
   set(searchbot_INSTALL_PREFIX "")
   set(searchbot_PREFIX ${searchbot_DEVEL_PREFIX})
 else()
   set(searchbot_SOURCE_PREFIX "")
   set(searchbot_DEVEL_PREFIX "")
-  set(searchbot_INSTALL_PREFIX /home/ubuntu/workspace/install)
+  set(searchbot_INSTALL_PREFIX /home/ubuntu/robnav/workspace/install)
   set(searchbot_PREFIX ${searchbot_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ubuntu/workspace/install/lib;/home/ubuntu/workspace/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/ubuntu/robnav/workspace/install/lib;/home/ubuntu/workspace/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

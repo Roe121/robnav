@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/workspace/devel
+prefix=/home/ubuntu/robnav/workspace/devel
 
 Name: searchbot
 Description: Description of searchbot

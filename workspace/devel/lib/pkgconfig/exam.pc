@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/workspace/devel
+prefix=/home/ubuntu/robnav/workspace/devel
 
 Name: exam
 Description: Description of exam
