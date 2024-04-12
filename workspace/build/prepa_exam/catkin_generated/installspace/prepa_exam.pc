@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/workspace/install
+
+Name: prepa_exam
+Description: Description of prepa_exam
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

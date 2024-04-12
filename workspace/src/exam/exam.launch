@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="exam" name="detec_obstacles" type="detec_obstacles"/>
+    <node pkg="exam" name="tourner" type="tourner"/>
+    <node pkg="exam" name="gestion_rotation" type="gestion_rotation"/>
+</launch>
